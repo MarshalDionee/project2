@@ -1,0 +1,43 @@
+.box{
+     border-color: black;
+     border-width: 2px;
+     border-style:solid;
+     width: 250px;
+     text-align: center;
+     display:inline-block;
+     color: azure;
+ }
+ img{
+    height: 250px;
+    width:250px;
+ }
+ .one{
+    display: flex;
+    justify-content: space-evenly;
+ }
+ body{
+    background-image: url(./img/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ h1{
+    color: white;
+ }
+ a{
+    opacity: 0.4;
+ }
+ a:hover{
+    opacity: 1;
+ }
+.box:hover{
+    background-color: white;
+    color: black;
+
+}
+.two{
+    padding-left: 15px;
+}
+p{
+    color: white;
+    margin: 5%;
+}
